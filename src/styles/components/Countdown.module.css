@@ -63,6 +63,15 @@
   background-color: var(--blue-dark);
 }
 
+.countdownButton p {
+  display: flex;
+  align-items: center;
+}
+
+.countdownButton p img {
+  margin-left: 1rem;
+}
+
 .countdownButtonActive {
   background-color: var(--white);
   color: var(--title);
@@ -77,4 +86,6 @@
   background-color: var(--white);
   color: var(--text);
   cursor: not-allowed;
+
+  border-bottom: .3rem solid #4DD82B;
 }
